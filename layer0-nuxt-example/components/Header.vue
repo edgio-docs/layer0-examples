@@ -22,7 +22,7 @@
 
 <script lang="ts">
 import { getCategories, getApiPath } from '../lib/cms'
-const { Prefetch } = require('@xdn/vue')
+const { Prefetch } = require('@layer0/vue')
 
 export default {
   components: {

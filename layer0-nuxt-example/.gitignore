@@ -88,5 +88,7 @@ sw.*
 
 # Vim swap files
 *.swp
-# XDN generated build directory
-.xdn
+# layer0 generated build directory
+.layer0
+# Layer0 generated build directory
+.layer0

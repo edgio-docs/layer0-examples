@@ -1,10 +1,10 @@
-// This file was added by xdn init.
+// This file was added by layer0 init.
 // You should commit this file to source control.
 
-import { Router } from '@xdn/core/router'
-import { nuxtRoutes } from '@xdn/nuxt'
-import { API_CACHE_HANDLER, SSR_CACHE_HANDLER } from './xdn/cache'
-import getPrerenderRequests from './xdn/getPrerenderRequests'
+import { Router } from '@layer0/core/router'
+import { nuxtRoutes } from '@layer0/nuxt'
+import { API_CACHE_HANDLER, SSR_CACHE_HANDLER } from './layer0/cache'
+import getPrerenderRequests from './layer0/getPrerenderRequests'
 
 export default new Router()
   // @ts-ignore

@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "xdn": "xdn",
-    "xdn:dev": "xdn dev",
-    "xdn:build": "xdn build",
-    "xdn:deploy": "xdn deploy moovweb-docs",
+    "layer0": "layer0",
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy moovweb-docs",
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
@@ -11,13 +11,19 @@
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "npm run lint:js"
   },
-  "name": "xdn-nuxt-example",
+  "name": "layer0-nuxt-example",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@nuxt/core": "^2.14.6"
   },
   "devDependencies": {
+    "@layer0/cli": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/core": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/devtools": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/nuxt": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/prefetch": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/vue": "^2.46.12-next-1615996868-d660342d.0",
     "@nuxt/types": "^2.14.6",
     "@nuxt/typescript-build": "^2.0.3",
     "@nuxt/typescript-runtime": "^2.0.0",
@@ -25,12 +31,6 @@
     "@nuxtjs/eslint-config-typescript": "^3.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "@nuxtjs/tailwindcss": "^3.1.0",
-    "@xdn/cli": "^2.35.0",
-    "@xdn/core": "^2.35.0",
-    "@xdn/devtools": "^2.35.0",
-    "@xdn/nuxt": "^2.35.0",
-    "@xdn/prefetch": "^2.35.0",
-    "@xdn/vue": "^2.35.0",
     "axios": "^0.21.0",
     "babel-eslint": "^10.1.0",
     "core-js": "^3.6.5",

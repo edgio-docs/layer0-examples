@@ -1,7 +1,7 @@
 <script lang="ts">
 import { getProductsByCategory, getApiPath } from '../../lib/cms'
 import Rating from '../../components/Rating.vue'
-const { Prefetch } = require('@xdn/vue')
+const { Prefetch } = require('@layer0/vue')
 
 export default {
   components: {
