@@ -40,5 +40,7 @@ Thumbs.db
 
 .next
 .yalc
-.xdn
+.layer0
 !.prettierignore
+# Layer0 generated build directory
+.layer0
