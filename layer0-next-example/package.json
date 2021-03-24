@@ -1,0 +1,36 @@
+{
+  "scripts": {
+    "layer0": "layer0",
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy moovweb-docs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "name": "layer0-next-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@layer0/react": "^2.46.12-next-1615996868-d660342d.0",
+    "next": "^10.0.9",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@layer0/cli": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/core": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/devtools": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/next": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/prefetch": "^2.46.12-next-1615996868-d660342d.0",
+    "@types/node": "^14.14.6",
+    "@types/react": "^16.9.56",
+    "@types/webpack-env": "^1.15.3",
+    "node-fetch": "^2.6.1",
+    "serverless": "^1.83.0",
+    "serverless-dotenv-plugin": "^2.4.2",
+    "serverless-offline": "^5.12.1",
+    "tailwindcss": "^1.9.6",
+    "typescript": "^4.0.5"
+  }
+}

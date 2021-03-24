@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Prefetch } from '@xdn/react'
+import { Prefetch } from '@layer0/react'
 import { getCategory } from '../../lib/cms'
 import Rating from '../../components/Rating'
 

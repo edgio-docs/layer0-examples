@@ -1,10 +1,10 @@
-// This file was automatically added by xdn deploy.
+// This file was automatically added by layer0 deploy.
 // You should commit this file to source control.
 require('dotenv').config()
 const { join } = require('path')
 
 module.exports = {
-  connector: '@xdn/next',
+  connector: '@layer0/next',
   includeFiles: {
     [join('.next', 'BUILD_ID')]: true,
   },

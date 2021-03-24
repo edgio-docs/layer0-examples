@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Prefetch } from '@xdn/react'
+import { Prefetch } from '@layer0/react'
 import styles from '../styles/Header.module.css'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'

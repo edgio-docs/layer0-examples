@@ -1,7 +1,7 @@
-import { Router } from '@xdn/core/router'
-import { nextRoutes } from '@xdn/next'
-import getPrerenderRequests from './xdn/getPrerenderRequests'
-import { SSR_CACHE_HANDLER, API_CACHE_HANDLER, NEXT_CACHE_HANDLER } from './xdn/cache'
+import { Router } from '@layer0/core/router'
+import { nextRoutes } from '@layer0/next'
+import getPrerenderRequests from './layer0/getPrerenderRequests'
+import { SSR_CACHE_HANDLER, API_CACHE_HANDLER, NEXT_CACHE_HANDLER } from './layer0/cache'
 
 export default new Router()
   /* @ts-ignore */

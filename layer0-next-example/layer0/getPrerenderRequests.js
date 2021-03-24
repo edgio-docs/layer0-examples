@@ -3,7 +3,7 @@ import { join } from 'path'
 import { getCategories } from '../lib/cms'
 
 // Read the Next.js build ID from '.next/BUILD_ID
-// This is configured in `xdn.config.js` to be included in the build/deploy
+// This is configured in `layer0.config.js` to be included in the build/deploy
 const buildIdPath = join(process.cwd(), '.next', 'BUILD_ID')
 
 export default async function getPrerenderRequests() {

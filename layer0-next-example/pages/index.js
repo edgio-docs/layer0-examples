@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>XDN Next App Example</title>
+        <title>Layer0 Next App Example</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <p className={styles.description}>
-          This is an example Next.js app powered by Moovweb XDN. Click a category above to get
+          This is an example Next.js app powered by Layer0. Click a category above to get
           started.
         </p>
       </main>

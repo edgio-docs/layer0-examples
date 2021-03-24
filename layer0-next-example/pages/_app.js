@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import LoadingIndicator from '../components/LoadingIndicator'
-import { prefetch } from '@xdn/prefetch/window/prefetch'
+import { prefetch } from '@layer0/prefetch/window/prefetch'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
