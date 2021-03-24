@@ -3,7 +3,7 @@
 The all-in-one starter kit for high-performance e-commerce sites. With a few clicks, Next.js developers can clone, deploy and fully customize their own store.
 Start right now at [nextjs.org/commerce](https://nextjs.org/commerce)
 
-Demo live on the [Moovweb XDN](https://moovweb-docs-nextjs-commerce-default.moovweb-edge.io/)
+Demo live on the [Layer0](https://moovweb-docs-nextjs-commerce-default.moovweb-edge.io/)
 
 This project is currently <b>under development</b>.
 
@@ -23,15 +23,15 @@ This project is currently <b>under development</b>.
 
 ```
 yarn install
-xdn run
+layer0 run
 ```
 
-## Deploying to Moovweb XDN
+## Deploying to Moovweb Layer0
 
-First, sign up for a free account on the [Moovweb XDN](https://moovweb.app/signup)
+First, sign up for a free account on [Layer0](https://moovweb.app/signup)
 
 Then run the following to deploy your site:
 
 ```
-xdn deploy --team=<my team here>
+layer0 deploy --team=<my team here>
 ```

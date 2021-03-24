@@ -1,9 +1,9 @@
-const { withXDN, withServiceWorker } = require('@xdn/next/config')
+const { withLayer0, withServiceWorker } = require('@layer0/next/config')
 const bundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: !!process.env.BUNDLE_ANALYZE,
 })
 
-module.exports = withXDN(
+module.exports = withLayer0(
   withServiceWorker(
     bundleAnalyzer({
       images: {
