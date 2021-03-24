@@ -44,8 +44,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-# XDN generated build directory
-.xdn
+# layer0 generated build directory
+.layer0
 
 .yalc
 yalc.lock
+# Layer0 generated build directory
+.layer0

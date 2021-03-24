@@ -1,7 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core'
 import { isPlatformBrowser } from '@angular/common'
 import { PLATFORM_ID } from '@angular/core'
-import install from '@xdn/prefetch/window/install'
+import install from '@layer0/prefetch/window/install'
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,7 @@ import install from '@xdn/prefetch/window/install'
 })
 export class AppComponent implements OnInit {
   isBrowser: boolean
-  title = 'xdn-spartacus-example'
+  title = 'layer0-spartacus-example'
 
   constructor(@Inject(PLATFORM_ID) platformId: Object) {
     this.isBrowser = isPlatformBrowser(platformId)

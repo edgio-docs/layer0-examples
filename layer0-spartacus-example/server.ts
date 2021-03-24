@@ -13,23 +13,23 @@ import { AppServerModule } from './src/main.server'
 import { APP_BASE_HREF } from '@angular/common'
 import { existsSync } from 'fs'
 
-// xdn
+// layer0
 import * as http from 'http'
 import * as https from 'https'
-import createRenderCallback from '@xdn/spartacus/server/createRenderCallback'
-import installXdnMiddleware from '@xdn/spartacus/server/installXdnMiddleware'
+import createRenderCallback from '@layer0/spartacus/server/createRenderCallback'
+import installLayer0Middleware from '@layer0/spartacus/server/installLayer0Middleware'
 
 const ngExpressEngine = NgExpressEngineDecorator.get(engine)
 
 // The Express app is exported so that it can be used by serverless Functions.
 export function app() {
   const server = express()
-  const distFolder = join(process.cwd(), 'dist/xdn-spartacus-example/browser')
+  const distFolder = join(process.cwd(), 'dist/layer0-spartacus-example/browser')
   const indexHtml = existsSync(join(distFolder, 'index.original.html'))
     ? 'index.original.html'
     : 'index'
 
-  installXdnMiddleware({ server, http, https })
+  installLayer0Middleware({ server, http, https })
 
   server.engine(
     'html',

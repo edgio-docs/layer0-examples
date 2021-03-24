@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "xdn-spartacus-example": {
+    "layer0-spartacus-example": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/xdn-spartacus-example/browser",
+            "outputPath": "dist/layer0-spartacus-example/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -61,18 +61,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "xdn-spartacus-example:build"
+            "browserTarget": "layer0-spartacus-example:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "xdn-spartacus-example:build:production"
+              "browserTarget": "layer0-spartacus-example:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "xdn-spartacus-example:build"
+            "browserTarget": "layer0-spartacus-example:build"
           }
         },
         "test": {
@@ -103,18 +103,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "xdn-spartacus-example:serve"
+            "devServerTarget": "layer0-spartacus-example:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "xdn-spartacus-example:serve:production"
+              "devServerTarget": "layer0-spartacus-example:serve:production"
             }
           }
         },
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/xdn-spartacus-example/server",
+            "outputPath": "dist/layer0-spartacus-example/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json"
           },
@@ -135,21 +135,21 @@
         "serve-ssr": {
           "builder": "@nguniversal/builders:ssr-dev-server",
           "options": {
-            "browserTarget": "xdn-spartacus-example:build",
-            "serverTarget": "xdn-spartacus-example:server"
+            "browserTarget": "layer0-spartacus-example:build",
+            "serverTarget": "layer0-spartacus-example:server"
           },
           "configurations": {
             "production": {
-              "browserTarget": "xdn-spartacus-example:build:production",
-              "serverTarget": "xdn-spartacus-example:server:production"
+              "browserTarget": "layer0-spartacus-example:build:production",
+              "serverTarget": "layer0-spartacus-example:server:production"
             }
           }
         },
         "prerender": {
           "builder": "@nguniversal/builders:prerender",
           "options": {
-            "browserTarget": "xdn-spartacus-example:build:production",
-            "serverTarget": "xdn-spartacus-example:server:production",
+            "browserTarget": "layer0-spartacus-example:build:production",
+            "serverTarget": "layer0-spartacus-example:server:production",
             "routes": ["/"]
           },
           "configurations": {
@@ -159,5 +159,5 @@
       }
     }
   },
-  "defaultProject": "xdn-spartacus-example"
+  "defaultProject": "layer0-spartacus-example"
 }

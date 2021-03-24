@@ -1,8 +1,8 @@
-// This file was automatically added by xdn deploy.
+// This file was automatically added by layer0 deploy.
 // You should commit this file to source control.
 
-import { Router } from '@xdn/core/router'
-import { angularRoutes } from '@xdn/angular'
+import { Router } from '@layer0/core/router'
+import { angularRoutes } from '@layer0/angular'
 
 const PAGE_TTL = 60 * 60 * 24
 const FAR_FUTURE_TTL = 60 * 60 * 24 * 365 * 10

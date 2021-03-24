@@ -14,10 +14,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy()
   })
 
-  it(`should have as title 'xdn-spartacus-example'`, () => {
+  it(`should have as title 'layer0-spartacus-example'`, () => {
     const fixture = TestBed.createComponent(AppComponent)
     const app = fixture.componentInstance
-    expect(app.title).toEqual('xdn-spartacus-example')
+    expect(app.title).toEqual('layer0-spartacus-example')
   })
 
   it('should render title', () => {
@@ -25,7 +25,7 @@ describe('AppComponent', () => {
     fixture.detectChanges()
     const compiled = fixture.nativeElement
     expect(compiled.querySelector('.content span').textContent).toContain(
-      'xdn-spartacus-example app is running!'
+      'layer0-spartacus-example app is running!'
     )
   })
 })
