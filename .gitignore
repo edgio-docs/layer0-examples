@@ -91,8 +91,9 @@ sw.*
 # Vim swap files
 *.swp
 
-# XDN generated build directory
+# generated build directory
 .xdn
+.layer0
 BUILD_ID
 
 .prettierignore
