@@ -9,7 +9,7 @@
 </script>
 
 <script>
-  import { Prefetch } from '@xdn/svelte'
+  import { Prefetch } from '@layer0/svelte'
   import Rating from '../../components/Rating.svelte'
 
   export let products = []

@@ -1,9 +1,9 @@
-// This file was automatically added by xdn deploy.
+// This file was automatically added by layer0 deploy.
 // You should commit this file to source control.
-import { Router } from '@xdn/core/router'
-import { sapperRoutes } from '@xdn/sapper'
-import getPrerenderRequests from './xdn/getPrerenderRequests'
-import { API_CACHE_HANDLER, SSR_CACHE_HANDLER } from './xdn/cache'
+import { Router } from '@layer0/core/router'
+import { sapperRoutes } from '@layer0/sapper'
+import getPrerenderRequests from './layer0/getPrerenderRequests'
+import { API_CACHE_HANDLER, SSR_CACHE_HANDLER } from './layer0/cache'
 
 export default new Router()
   .prerender(getPrerenderRequests)

@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte'
   import { stores } from '@sapper/app'
-  import { Prefetch } from '@xdn/svelte'
+  import { Prefetch } from '@layer0/svelte'
   import { getCategories, getApiPath } from '../../lib/cms'
 
   export let categories = []
