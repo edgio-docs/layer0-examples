@@ -29,5 +29,5 @@ jobs:
           npm ci
           npm run layer0:deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token ${{env.BRANCH_NAME != 'main' && '--environment=staging' || ''}}
         env:
-          deploy_token: ${{secrets.NEXT_DEPLOY_TOKEN}}
+          deploy_token: ${{secrets.FRONTITY_DEPLOY_TOKEN}}
         working-directory: ./layer0-frontity-example

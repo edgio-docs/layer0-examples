@@ -132,7 +132,7 @@
   },
   "elasticsearch": {
     "httpAuth": "",
-    "host": "https://moovweb-docs-xdn-vue-storefront-example-default.moovweb-edge.io/api/catalog",
+    "host": "https://layer0-docs-layer0-vue-storefront-example-default.moovweb-edge.io/api/catalog",
     "index": "vue_storefront_catalog",
     "min_score": 0.02,
     "csrTimeout": 5000,
@@ -727,11 +727,11 @@
   "stock": {
     "synchronize": true,
     "allowOutOfStockInCart": true,
-    "endpoint": "https://moovweb-docs-xdn-vue-storefront-example-default.moovweb-edge.io/api/stock"
+    "endpoint": "https://layer0-docs-layer0-vue-storefront-example-default.moovweb-edge.io/api/stock"
   },
   "images": {
     "useExactUrlsNoProxy": false,
-    "baseUrl": "https://moovweb-docs-xdn-vue-storefront-example-default.moovweb-edge.io/img/",
+    "baseUrl": "https://layer0-docs-layer0-vue-storefront-example-default.moovweb-edge.io/img/",
     "useSpecificImagePaths": false,
     "paths": {
       "product": "/catalog/product"

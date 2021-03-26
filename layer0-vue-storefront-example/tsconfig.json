@@ -28,7 +28,7 @@
     "src/**/*.vue",
     "core/**/*.ts",
     "core/**/*.vue",
-    "test/**/*.ts",
+    // "test/**/*.ts",
     "module/**/*.ts",
     "packages/**/*.ts"
   ],

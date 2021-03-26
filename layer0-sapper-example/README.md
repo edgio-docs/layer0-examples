@@ -8,7 +8,7 @@ layer0 dev
 
 and navigate to [http://127.0.0.1:3000](http://127.0.0.1:3000) with your browser to see the result.
 
-To view this example live, visit https://moovweb-docs-xdn-sapper-example-default.moovweb-edge.io/.
+To view this example live, visit https://layer0-docs-layer0-sapper-example-default.moovweb-edge.io/.
 
 ## Deploy on Layer0
 

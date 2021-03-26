@@ -29,9 +29,9 @@ Read more information about layer0 [here](https://developer.moovweb.com/guides/s
 
 ## Links
 
-Project: https://moovweb.app/moovweb-docs/xdn-aws-store-example
+Project: https://moovweb.app/layer0-docs/layer0-aws-store-example
 
-Preview: https://moovweb-docs-xdn-aws-store-example-default.moovweb-edge.io
+Preview: https://layer0-docs-layer0-aws-store-example-default.moovweb-edge.io
 
 Carts AWS service proxied on layer0: https://github.com/moovweb-demos/aws-rds-carts-service/
 

@@ -1,8 +1,8 @@
 node_modules
 .xdn
 **/dist/**/*
-xdn-sapper-example/__sapper__
-xdn-vue-storefront-example/core/**/*
-xdn-vue-storefront-example/packages/**/*
-xdn-vue-storefront-example/test/**/*
-xdn-vue-storefront-example/src/**/*
+layer0-sapper-example/__sapper__
+layer0-vue-storefront-example/core/**/*
+layer0-vue-storefront-example/packages/**/*
+layer0-vue-storefront-example/test/**/*
+layer0-vue-storefront-example/src/**/*

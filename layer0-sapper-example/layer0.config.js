@@ -4,8 +4,8 @@ module.exports = {
   connector: '@layer0/sapper',
   backends: {
     api: {
-      domainOrIp: 'moovweb-docs-xdn-examples-api-default.moovweb-edge.io',
-      hostHeader: 'moovweb-docs-xdn-examples-api-default.moovweb-edge.io',
+      domainOrIp: 'layer0-docs-layer0-examples-api-default.moovweb-edge.io',
+      hostHeader: 'layer0-docs-layer0-examples-api-default.moovweb-edge.io',
     },
   },
 }
