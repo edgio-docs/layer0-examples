@@ -18,12 +18,12 @@
     "@nuxt/core": "^2.14.6"
   },
   "devDependencies": {
-    "@layer0/cli": "^2.46.12-next-1615996868-d660342d.0",
-    "@layer0/core": "^2.46.12-next-1615996868-d660342d.0",
-    "@layer0/devtools": "^2.46.12-next-1615996868-d660342d.0",
-    "@layer0/nuxt": "^2.46.12-next-1615996868-d660342d.0",
-    "@layer0/prefetch": "^2.46.12-next-1615996868-d660342d.0",
-    "@layer0/vue": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/cli": "^3.0.1-next-1616590389-ebf3f1dd.0",
+    "@layer0/core": "^3.0.1-next-1616590389-ebf3f1dd.0",
+    "@layer0/devtools": "^3.0.1-next-1616590389-ebf3f1dd.0",
+    "@layer0/nuxt": "^3.0.1-next-1616590389-ebf3f1dd.0",
+    "@layer0/prefetch": "^3.0.1-next-1616590389-ebf3f1dd.0",
+    "@layer0/vue": "^3.0.1-next-1616590389-ebf3f1dd.0",
     "@nuxt/types": "^2.14.6",
     "@nuxt/typescript-build": "^2.0.3",
     "@nuxt/typescript-runtime": "^2.0.0",

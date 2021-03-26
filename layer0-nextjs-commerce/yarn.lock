@@ -932,10 +932,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@layer0/cli@^2.46.12-next-1615996868-d660342d.0":
-  version "2.46.12-next-1615996868-d660342d.0"
-  resolved "https://registry.yarnpkg.com/@layer0/cli/-/cli-2.46.12-next-1615996868-d660342d.0.tgz#0dbdd6fde020c7a402f183aec76b463007d791f1"
-  integrity sha512-/aXHrh8sfbKcEMiK2jpqpblBJpdHqj0VaBKUvONBsnnSUx2Hh3TvbcXWGfVxpIYUr0mKq8UjGxTELUPAMv2dcQ==
+"@layer0/cli@^3.0.1-next-1616590389-ebf3f1dd.0":
+  version "3.0.1-next-1616590389-ebf3f1dd.0"
+  resolved "https://registry.yarnpkg.com/@layer0/cli/-/cli-3.0.1-next-1616590389-ebf3f1dd.0.tgz#69974f756f8685109ddeccd8ec1ce07a9d78bd7f"
+  integrity sha512-Z0FRmDywGsxn9MzJgyUIJ+XeSYvVXcnMdW/Y1MLZc54RwWgC/TwOKPbbW7674HA+2D2kouiNQtHXd7SNel+wPQ==
   dependencies:
     axios "^0.21.1"
     chalk "^2.4.2"
@@ -965,10 +965,10 @@
     yauzl "^2.10.0"
     yazl "^2.5.1"
 
-"@layer0/core@^2.46.12-next-1615996868-d660342d.0":
-  version "2.46.12-next-1615996868-d660342d.0"
-  resolved "https://registry.yarnpkg.com/@layer0/core/-/core-2.46.12-next-1615996868-d660342d.0.tgz#870fac1e6b5587e9bf942579ec4fcafc06778d63"
-  integrity sha512-yLNjFTkE2xTSTwZo4xjNokzLVo/qb86BLodvkXbG5LlhAccCZKwztHas279SoZUfFExN5tJuuMGaigVEsxXxpg==
+"@layer0/core@^3.0.1-next-1616590389-ebf3f1dd.0":
+  version "3.0.1-next-1616590389-ebf3f1dd.0"
+  resolved "https://registry.yarnpkg.com/@layer0/core/-/core-3.0.1-next-1616590389-ebf3f1dd.0.tgz#0d334396025a58289972feea8715203b2a5b366c"
+  integrity sha512-mF/1ZyEz6RVdxsLIw44GDAbiiYI81GC1i81/UPnmqTP6FPyS6GzKSBuHp1IVQWMHkZcEuG9vi/Tq6w57w3iPAw==
   dependencies:
     ajv "^6.12.3"
     babel-loader "^8.1.0"
@@ -998,19 +998,19 @@
     webpack-bundle-analyzer "^3.9.0"
     webpack-dev-middleware "^4.1.0"
 
-"@layer0/devtools@^2.46.12-next-1615996868-d660342d.0":
-  version "2.46.12-next-1615996868-d660342d.0"
-  resolved "https://registry.yarnpkg.com/@layer0/devtools/-/devtools-2.46.12-next-1615996868-d660342d.0.tgz#b844586f9c6bac5f28b1801e58522fb39b3d235a"
-  integrity sha512-BPZUNaKgz0NroFbpDt8DxiyuGqBAcu8wJWvR6CrTmFRkLt+xmokvudvZgHEAS0Wo8nz4BibOU+7DyYFeczpWuA==
+"@layer0/devtools@^3.0.1-next-1616590389-ebf3f1dd.0":
+  version "3.0.1-next-1616590389-ebf3f1dd.0"
+  resolved "https://registry.yarnpkg.com/@layer0/devtools/-/devtools-3.0.1-next-1616590389-ebf3f1dd.0.tgz#6de9456e7a5a7084ae1c66c39dbd10c2d51f01d9"
+  integrity sha512-XS3mnb55rvwwbmpiQyiJfrEXRx8rpab6aShIbWUtM802Vo7+YgeaPmB8BtX5JKXlsxk/vSA8P3DpSPwNOsowXQ==
   dependencies:
     clsx "^1.1.1"
     lodash "^4.17.20"
     sirv-cli "^1.0.0"
 
-"@layer0/next@^2.46.12-next-1615996868-d660342d.0":
-  version "2.46.12-next-1615996868-d660342d.0"
-  resolved "https://registry.yarnpkg.com/@layer0/next/-/next-2.46.12-next-1615996868-d660342d.0.tgz#72d2426c3d74191d9d2fc3804deefe1aac35d19a"
-  integrity sha512-+ixomVUB4xPTmTfGfG9bHW4TIakheE5yl/+1ocGqacPEAi9083v4yCmCSwiIVtBYGk7/QX3TT80FZJFvU8rbzQ==
+"@layer0/next@^3.0.1-next-1616590389-ebf3f1dd.0":
+  version "3.0.1-next-1616590389-ebf3f1dd.0"
+  resolved "https://registry.yarnpkg.com/@layer0/next/-/next-3.0.1-next-1616590389-ebf3f1dd.0.tgz#43384f6770606f86ab3a929fd46c7431f702c9ab"
+  integrity sha512-2Vz38sGa0fjuagYVUd6LToh4E0v79uMcAhmfqDTu3Xdk4JbqlL1r/7kMikEN3E/wv5z1xug1itFp2EAHU9PDGA==
   dependencies:
     chalk "^3.0.0"
     cross-spawn "^7.0.3"
@@ -1022,10 +1022,10 @@
     webpack "^4.0.0"
     webpack-sources "^2.2.0"
 
-"@layer0/prefetch@^2.46.12-next-1615996868-d660342d.0":
-  version "2.46.12-next-1615996868-d660342d.0"
-  resolved "https://registry.yarnpkg.com/@layer0/prefetch/-/prefetch-2.46.12-next-1615996868-d660342d.0.tgz#d64e1ad9d47ffe440f97a8a97f988d48c3ae6b33"
-  integrity sha512-vJT2cB+ouafga+wBVIunAk4W9kO12Tj1KZVOKt4Mp1ZrHE/o9klR1SVv6fm1puILQmMyMkDxah7I3ctLbeJMBA==
+"@layer0/prefetch@^3.0.1-next-1616590389-ebf3f1dd.0":
+  version "3.0.1-next-1616590389-ebf3f1dd.0"
+  resolved "https://registry.yarnpkg.com/@layer0/prefetch/-/prefetch-3.0.1-next-1616590389-ebf3f1dd.0.tgz#98a67443f6e3bdc134cda63c1e961fcd180a6158"
+  integrity sha512-qVwHlVBIs57pOXFuf72MTNZBWo42TOq3Au1KEKUDpUYBjXBaUBWYtDTQPTHjd3IX9FV3NaIG9d4rg5KjmPHNDQ==
   dependencies:
     "@types/cheerio" "^0.22.18"
     cheerio "^1.0.0-rc.3"
@@ -1037,10 +1037,10 @@
     workbox-routing "^5.1.2"
     workbox-strategies "^5.1.2"
 
-"@layer0/react@^2.46.12-next-1615996868-d660342d.0":
-  version "2.46.12-next-1615996868-d660342d.0"
-  resolved "https://registry.yarnpkg.com/@layer0/react/-/react-2.46.12-next-1615996868-d660342d.0.tgz#9be8482f575ed5015e07874cbe4322f09e94dbcc"
-  integrity sha512-15BhqElhrvcoIF9u66SfFTZ80A8gllOtZtToCKfEvDvGnwcwO1WsK9LSG6fk55lxr6jukE3DV63UxSmyKNRUBg==
+"@layer0/react@^3.0.1-next-1616590389-ebf3f1dd.0":
+  version "3.0.1-next-1616590389-ebf3f1dd.0"
+  resolved "https://registry.yarnpkg.com/@layer0/react/-/react-3.0.1-next-1616590389-ebf3f1dd.0.tgz#72a6600f84bf6c478b854412ca94329e03e20020"
+  integrity sha512-oO2gG5x14Gbu8T8883u/xNNBRBOJ+N6oo4CHTQD4HPGp/2UkeXX3sCRAWN8UtDI26eMFHmC8atlqorH+oUPa9A==
   dependencies:
     react-merge-refs "^1.1.0"
 
