@@ -21,6 +21,7 @@ yarn-error.log*
 *.sln
 *.sw*
 
-# XDN
-.xdn/
-dist-xdn/
+# layer0
+.layer0/
+dist-layer0/# Layer0 generated build directory
+.layer0

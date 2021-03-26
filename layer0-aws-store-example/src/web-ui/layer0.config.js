@@ -1,5 +1,5 @@
 module.exports = {
-  routes: './xdn/routes.js',
+  routes: './layer0/routes.js',
   backends: {
     'origin': {
       domainOrIp: 'example.com',

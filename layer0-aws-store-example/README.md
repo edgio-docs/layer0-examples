@@ -14,9 +14,9 @@ The architecture is supported by several managed services including [Amazon Cogn
 
 ![Retail Demo Store Architecture](./workshop/images/retaildemostore-architecture.png)
 
-## XDN
+## layer0
 
-For XDN guide, see [web-ui](./src/web-ui#xdn)
+For layer0 guide, see [web-ui](./src/web-ui#layer0)
 
 ## Hands-On Workshops
 

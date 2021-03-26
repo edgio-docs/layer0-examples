@@ -1,24 +1,21 @@
 {
-  "name": "xdn-aws-store-example",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "xdn:start": "concurrently \"npx webpack --watch --config xdn/webpack.xdn.config.js\" \"npx xdn run\"",
-    "xdn:start:cache": "concurrently \"npx webpack --watch --config xdn/webpack.xdn.config.js\" \"npx xdn run --cache\"",
-    "xdn:start:prod": "npx xdn run --production",
-    "xdn:build": "npx webpack --progress --config xdn/webpack.xdn.config.js && npx xdn build",
-    "xdn:deploy": "npx xdn deploy --team=moovweb-docs --skip-build --site=xdn-aws-store-example",
-    "xdn:update": "npm i -D @xdn/cli@latest && npm i @xdn/core@latest @xdn/prefetch@latest @xdn/devtools@latest"
+    "layer0:start": "concurrently \"npx webpack --watch --config layer0/webpack.layer0.config.js\" \"npx layer0 run\"",
+    "layer0:start:cache": "concurrently \"npx webpack --watch --config layer0/webpack.layer0.config.js\" \"npx layer0 run --cache\"",
+    "layer0:start:prod": "npx layer0 run --production",
+    "layer0:build": "npx webpack --progress --config layer0/webpack.layer0.config.js && npx layer0 build",
+    "layer0:deploy": "npx layer0 deploy --team=moovweb-docs --skip-build --site=layer0-aws-store-example",
+    "layer0:update": "npm i -D @layer0/cli@latest && npm i @layer0/core@latest @layer0/prefetch@latest @layer0/devtools@latest"
   },
+  "name": "layer0-aws-store-example",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@optimizely/optimizely-sdk": "4.0.0",
-    "@xdn/core": "^2.29.0",
-    "@xdn/devtools": "^2.29.0",
-    "@xdn/prefetch": "^2.29.0",
     "amplitude-js": "^5.8.0",
     "aws-amplify": "^3.0.23",
     "aws-amplify-vue": "^2.1.2",
@@ -33,10 +30,13 @@
     "vuex-persistedstate": "^3.1.0"
   },
   "devDependencies": {
+    "@layer0/cli": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/core": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/devtools": "^2.46.12-next-1615996868-d660342d.0",
+    "@layer0/prefetch": "^2.46.12-next-1615996868-d660342d.0",
     "@vue/cli-plugin-babel": "^4.5.2",
     "@vue/cli-plugin-eslint": "^4.5.2",
     "@vue/cli-service": "^4.5.2",
-    "@xdn/cli": "^2.29.0",
     "babel-eslint": "^10.1.0",
     "concurrently": "^5.3.0",
     "eslint": "^6.8.0",

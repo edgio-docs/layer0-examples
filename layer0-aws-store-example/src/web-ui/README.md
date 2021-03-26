@@ -23,9 +23,9 @@ foo@bar:~$ docker-compose up --build web-ui
 
 Once the container is up and running, you can access it in your browser at [http://localhost:8080](http://localhost:8080).
 
-# XDN
+# layer0
 
-Read more information about XDN [here](https://developer.moovweb.com/guides/starter)
+Read more information about layer0 [here](https://developer.moovweb.com/guides/starter)
 
 ## Links
 
@@ -33,11 +33,11 @@ Project: https://moovweb.app/moovweb-docs/xdn-aws-store-example
 
 Preview: https://moovweb-docs-xdn-aws-store-example-default.moovweb-edge.io
 
-Carts AWS service proxied on XDN: https://github.com/moovweb-demos/aws-rds-carts-service/
+Carts AWS service proxied on layer0: https://github.com/moovweb-demos/aws-rds-carts-service/
 
 ## Prerequisites
 
-XDN application works with Vue application production build files.
+layer0 application works with Vue application production build files.
 To create it, follow the next steps.
 
 1. Make sure your terminal is open in `%project_root%/src/web-ui` folder
@@ -47,20 +47,20 @@ To create it, follow the next steps.
 
 ## Development
 
-Run XDN locally using one of the following modes:
-1. `npm run xdn:start` - default run 
-2. `npm run xdn:start:cache` - run with cache
-3. `npm run xdn:start:prod` - serve production files (requires XDN build before, see next section)
+Run layer0 locally using one of the following modes:
+1. `npm run layer0:start` - default run 
+2. `npm run layer0:start:cache` - run with cache
+3. `npm run layer0:start:prod` - serve production files (requires layer0 build before, see next section)
 
 ## Build
 
-Make sure all the steps of [Prerequisites](#Prerequisites) section are done before building XDN files!
+Make sure all the steps of [Prerequisites](#Prerequisites) section are done before building layer0 files!
 
-To build XDN production files run `npm run xdn:build` (XDN build files will appear in `.xdn` & `dist-xdn` folders)
+To build layer0 production files run `npm run layer0:build` (layer0 build files will appear in `.layer0` & `dist-layer0` folders)
 
 ## Deployment
 
 Make sure all the steps of [Build](#Build) section are done before deployment! 
-To check if everything is OK you can try running production build via `npm run xdn:start:prod`.
+To check if everything is OK you can try running production build via `npm run layer0:start:prod`.
 
-To deploy files on XDN run `npm run xdn:deploy`
+To deploy files on layer0 run `npm run layer0:deploy`
