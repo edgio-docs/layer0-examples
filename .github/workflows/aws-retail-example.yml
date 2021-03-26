@@ -1,4 +1,4 @@
-name: Deploy AWS Retail Example to XDN
+name: Deploy AWS Retail Example to Layer0
 
 on: push
 
@@ -24,12 +24,12 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-      - name: AWS Retail Demo Store example - Deploy to XDN
+      - name: AWS Retail Demo Store example - Deploy to Layer0
         run: |
           npm ci
           npm run build
-          npm run xdn:build
-          npm run xdn:deploy --skip-build -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$xdn_deploy_token ${{env.BRANCH_NAME != 'main' && '--environment=staging' || ''}}
+          npm run layer0:build
+          npm run layer0:deploy --skip-build -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token ${{env.BRANCH_NAME != 'main' && '--environment=staging' || ''}}
         env:
-          xdn_deploy_token: ${{secrets.XDN_AWS_DEPLOY_TOKEN}}
-        working-directory: ./xdn-aws-store-example/src/web-ui
+          deploy_token: ${{secrets.AWS_DEPLOY_TOKEN}}
+        working-directory: ./layer0-aws-store-example/src/web-ui

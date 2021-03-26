@@ -1,4 +1,4 @@
-name: Deploy Next Example to XDN
+name: Deploy Next Example to Layer0
 
 on: push
 
@@ -24,10 +24,10 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-      - name: Next.js Example - Deploy to XDN
+      - name: Next.js Example - Deploy to Layer0
         run: |
           npm ci
-          npm run xdn:deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$xdn_deploy_token ${{env.BRANCH_NAME != 'main' && '--environment=staging' || ''}}
+          npm run layer0:deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token ${{env.BRANCH_NAME != 'main' && '--environment=staging' || ''}}
         env:
-          xdn_deploy_token: ${{secrets.XDN_NEXT_DEPLOY_TOKEN}}
-        working-directory: ./xdn-next-example
+          deploy_token: ${{secrets.NEXT_DEPLOY_TOKEN}}
+        working-directory: ./layer0-next-example

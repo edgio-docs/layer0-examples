@@ -1,4 +1,4 @@
-name: Deploy Vue Storefront Example to XDN
+name: Deploy Vue Storefront Example to Layer0
 
 on: push
 
@@ -24,12 +24,12 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-      - name: Vue Storefront Example - Deploy to XDN
+      - name: Vue Storefront Example - Deploy to Layer0
         run: |
           yarn install
           yarn build
-          yarn xdn:build
-          yarn xdn:deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$xdn_deploy_token ${{env.BRANCH_NAME != 'main' && '--environment=staging' || ''}}
+          yarn layer0:build
+          yarn layer0:deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token ${{env.BRANCH_NAME != 'main' && '--environment=staging' || ''}}
         env:
-          xdn_deploy_token: ${{secrets.XDN_VSF_DEPLOY_TOKEN}}
-        working-directory: ./xdn-vue-storefront-example
+          deploy_token: ${{secrets.VSF_DEPLOY_TOKEN}}
+        working-directory: ./layer0-vue-storefront-example
