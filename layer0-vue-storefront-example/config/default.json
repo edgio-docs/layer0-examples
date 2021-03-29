@@ -720,7 +720,7 @@
   },
   "images": {
     "useExactUrlsNoProxy": false,
-    "baseUrl": "https://layer0-docs-layer0-vue-storefront-example-default.moovweb-edge.io/img/",
+    "baseUrl": "https://moovweb-docs-layer0-vue-storefront-example-default.moovweb-edge.io/img/",
     "useSpecificImagePaths": false,
     "paths": {
       "product": "/catalog/product"

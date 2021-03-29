@@ -15,7 +15,7 @@
     "layer0": "layer0",
     "layer0:start": "npm run layer0:sw:dev && layer0 run",
     "layer0:build": "layer0 build",
-    "layer0:deploy": "layer0 deploy --team=layer0-docs",
+    "layer0:deploy": "layer0 deploy --team=moovweb-docs",
     "layer0:sw:dev": "webpack --config=sw/webpack.config.js --progress",
     "layer0:sw:prod": "NODE_ENV=production webpack --config=sw/webpack.config.js --progress && node ./sw/inject-manifest.js",
     "postbuild:ssr": "npm run layer0:sw:prod"

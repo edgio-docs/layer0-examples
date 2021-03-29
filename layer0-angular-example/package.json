@@ -3,7 +3,7 @@
     "layer0": "layer0",
     "layer0:dev": "npm run build && layer0 dev",
     "layer0:build": "layer0 build",
-    "layer0:deploy": "layer0 deploy layer0-docs",
+    "layer0:deploy": "layer0 deploy moovweb-docs",
     "ng": "ng",
     "prestart": "ngtw build",
     "prebuild": "node ./prebuild",

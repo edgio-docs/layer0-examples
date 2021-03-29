@@ -5,8 +5,8 @@ module.exports = {
   routes: './src/layer0/routes.ts',
   backends: {
     api: {
-      domainOrIp: 'layer0-docs-layer0-examples-api-default.moovweb-edge.io',
-      hostHeader: 'layer0-docs-layer0-examples-api-default.moovweb-edge.io',
+      domainOrIp: 'moovweb-docs-layer0-examples-api-default.moovweb-edge.io',
+      hostHeader: 'moovweb-docs-layer0-examples-api-default.moovweb-edge.io',
     },
   },
 }
