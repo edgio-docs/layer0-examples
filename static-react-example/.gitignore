@@ -19,5 +19,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-# XDN generated build directory
-.xdn
+# layer0 generated build directory
+.layer0
+# Layer0 generated build directory
+.layer0
