@@ -1,5 +1,5 @@
 // routes.ts
-import { Router } from '@xdn/core/router'
+import { Router } from '@layer0/core/router'
 import { STATIC_ASSET_CACHE } from './cache'
 
 export default new Router()
