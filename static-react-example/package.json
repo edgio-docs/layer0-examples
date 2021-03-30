@@ -2,14 +2,14 @@
   "scripts": {
     "layer0": "layer0",
     "layer0:dev": "layer0 dev",
-    "layer0:build": "layer0 build",
-    "layer0:deploy": "layer0 deploy moovweb-docs",
+    "layer0:build": "npm run build && layer0 build",
+    "layer0:deploy": "npm run build && layer0 deploy moovweb-docs",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "name": "static-react-example",
+  "name": "layer0-static-react-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
