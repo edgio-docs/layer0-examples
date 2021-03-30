@@ -26,5 +26,7 @@ selenium-debug.log
 
 ## File-based project format:
 *.iws
-# XDN generated build directory
-.xdn
+# layer0 generated build directory
+.layer0
+# Layer0 generated build directory
+.layer0

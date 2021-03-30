@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "xdn": "xdn",
-    "xdn:dev": "xdn dev",
-    "xdn:build": "xdn build",
-    "xdn:deploy": "xdn deploy moovweb-docs",
+    "layer0": "layer0",
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy moovweb-docs",
     "start": "concurrently --kill-others \"npm run server\" \"npm run dev\"",
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
@@ -25,10 +25,10 @@
     "vuex": "^2.1.2"
   },
   "devDependencies": {
-    "@xdn/cli": "^2.46.7",
-    "@xdn/core": "^2.46.8",
-    "@xdn/devtools": "^2.46.8",
-    "@xdn/prefetch": "^2.46.7",
+    "@layer0/cli": "^3.0.1-next-1617008825-48a1f531.0",
+    "@layer0/core": "^3.0.1-next-1617008825-48a1f531.0",
+    "@layer0/devtools": "^3.0.1-next-1617008825-48a1f531.0",
+    "@layer0/prefetch": "^3.0.1-next-1617008825-48a1f531.0",
     "autoprefixer": "^6.7.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
