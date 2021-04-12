@@ -25,10 +25,10 @@
     "vuex": "^2.1.2"
   },
   "devDependencies": {
-    "@layer0/cli": "^3.0.1-next-1617008825-48a1f531.0",
-    "@layer0/core": "^3.0.1-next-1617008825-48a1f531.0",
-    "@layer0/devtools": "^3.0.1-next-1617008825-48a1f531.0",
-    "@layer0/prefetch": "^3.0.1-next-1617008825-48a1f531.0",
+    "@layer0/cli": "^3.0.0",
+    "@layer0/core": "^3.0.0",
+    "@layer0/devtools": "^3.0.0",
+    "@layer0/prefetch": "^3.0.0",
     "autoprefixer": "^6.7.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
