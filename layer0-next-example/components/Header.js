@@ -35,7 +35,7 @@ export default function Header() {
         <div className={`container ${styles.logoContainer}`}>
           <Link href="/" passHref>
             <a>
-              <img src="/moovweb.svg" alt="Moovweb Logo" />
+              <img src="/layer0-icon.svg" alt="Layer0 Logo" />
               <div className="text-center text-gray-700">Next.js Example</div>
             </a>
           </Link>

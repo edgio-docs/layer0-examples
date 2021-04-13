@@ -26,9 +26,9 @@ yarn install
 layer0 run
 ```
 
-## Deploying to Moovweb Layer0
+## Deploying to Layer0
 
-First, sign up for a free account on [Layer0](https://moovweb.app/signup)
+First, sign up for a free account on [Layer0](https://app.layer0.co/signup)
 
 Then run the following to deploy your site:
 

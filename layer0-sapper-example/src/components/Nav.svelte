@@ -75,7 +75,7 @@
   <header class="bg-white rounded-lg p-2 justify-center">
     <div class="container mx-auto logoContainer">
       <a href="/">
-        <img src="/moovweb.svg" alt="Moovweb Logo" />
+        <img src="/layer0-icon.svg" alt="Layer0 Logo" />
         <div class="text-center text-gray-700">Sapper Example</div>
       </a>
     </div>

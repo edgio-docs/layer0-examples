@@ -25,11 +25,11 @@ Once the container is up and running, you can access it in your browser at [http
 
 # layer0
 
-Read more information about layer0 [here](https://developer.moovweb.com/guides/starter)
+Read more information about layer0 [here](https://docs.layer0.co/guides/starter)
 
 ## Links
 
-Project: https://moovweb.app/layer0-docs/layer0-aws-store-example
+Project: https://app.layer0.co/layer0-docs/layer0-aws-store-example
 
 Preview: https://layer0-docs-layer0-aws-store-example-default.moovweb-edge.io
 

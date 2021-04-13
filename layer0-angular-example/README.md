@@ -13,4 +13,4 @@ To view this example live, visit https://layer0-docs-layer0-angular-example-defa
 
 ## Deploy on Layer0
 
-For more information on deploying to Layer0, visit https://developer.moovweb.com/guides/deploying
+For more information on deploying to Layer0, visit https://docs.layer0.co/guides/deploying

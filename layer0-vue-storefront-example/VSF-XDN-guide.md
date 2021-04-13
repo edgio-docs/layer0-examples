@@ -17,7 +17,7 @@ nvm use 12
 ## 3. Install layer0
 
 - Install layer0 packages: `npm run layer0:update`
-- Next steps will cover the layer0 key files you need to add. For more information about them see https://developer.moovweb.com/guides/starter
+- Next steps will cover the layer0 key files you need to add. For more information about them see https://docs.layer0.co/guides/starter
 - Add `layer0.config.js` file with your origin and images hosts. For example:
 
 ```js
