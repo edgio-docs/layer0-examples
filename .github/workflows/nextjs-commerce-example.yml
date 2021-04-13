@@ -1,4 +1,4 @@
-name: Deploy Next Example to Layer0
+name: Deploy Next Commerce Example to Layer0
 
 on: push
 
@@ -24,7 +24,7 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-      - name: Next.js Example - Deploy to Layer0
+      - name: Next.js Commerce Example - Deploy to Layer0
         run: |
           npm ci
           npm run layer0:deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token ${{env.BRANCH_NAME != 'main' && '--environment=staging' || ''}}
