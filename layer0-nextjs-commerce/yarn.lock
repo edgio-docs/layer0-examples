@@ -932,10 +932,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@layer0/cli@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@layer0/cli/-/cli-3.0.0.tgz#bec4a73076079f627b2c8d272c6375e6c409abef"
-  integrity sha512-MURU4xf6hUo7gLIWMxw8C+CxnGzrDE9BFvRK32b7HCujMp84spl1kh0zCBR2a2dvvsGoyiD7Fr1jPmc3N090bQ==
+"@layer0/cli@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@layer0/cli/-/cli-3.0.2.tgz#8a172ea2e4993bdfee4b81095da6251575d8895a"
+  integrity sha512-cRBHiwiKAkd5EuT3XvRGrB4S4ux/T9ctm7MJ1Y4QL3M8CWgHpcGgjsMqAjR2SFXIQmaWzbqANm8pgO3EI1+i8A==
   dependencies:
     axios "^0.21.1"
     chalk "^2.4.2"
@@ -965,10 +965,10 @@
     yauzl "^2.10.0"
     yazl "^2.5.1"
 
-"@layer0/core@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@layer0/core/-/core-3.0.0.tgz#2fc2c75e6581166612d0b05e2d1e9c9205514db7"
-  integrity sha512-wBOd4wlJqmYnUo6OvJmpUlmgYNll6jmm9xcBBV6ywZPrWOUf+g1CeZWdjr+jUnn1fuTnj32p50mCyxzC52DWBA==
+"@layer0/core@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@layer0/core/-/core-3.0.2.tgz#997c343150289d08738ed45375bf4fef6f76a029"
+  integrity sha512-Fho2ZzOdLFrgC/MdMjdCO/yejU4rGwonXrP8hXr92GWdADOIRnqWAEZiu0DIgMilCXWSg6nQNlhikqmVJruA5g==
   dependencies:
     "@types/lodash.clonedeep" "^4.5.6"
     ajv "^6.12.6"
@@ -1000,19 +1000,19 @@
     webpack-bundle-analyzer "^3.9.0"
     webpack-dev-middleware "^4.1.0"
 
-"@layer0/devtools@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@layer0/devtools/-/devtools-3.0.0.tgz#647334cc32f7546547d4ff6fca488498f5dd85d4"
-  integrity sha512-6gC0VhB0QfRmGod0h9ZIuf8e1l2Mtw8GwcVqtV6u1CpYSZ+cDec1swsDBkB1yq/C7HYOQD4y8lErC5xYcBOGdA==
+"@layer0/devtools@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@layer0/devtools/-/devtools-3.0.2.tgz#307cbabd61069d226d5c5235ff9a7180a0005511"
+  integrity sha512-P3eOw6NB98/q6ahPkFHdOTPX9P88x0+zZLbpMbY9y1DlUgbe1tc7tM9OCmMVWe1k9/+wtB36ytQadaP8TiL94A==
   dependencies:
     clsx "^1.1.1"
     lodash "^4.17.20"
     sirv-cli "^1.0.0"
 
-"@layer0/next@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@layer0/next/-/next-3.0.0.tgz#b02100e08ae509e97e7e5bc1bf9a377615a1403b"
-  integrity sha512-DkQH6uFjofU5t7Uu3GpTssO4YhkiTmokzZ1nwTOaHiGBZ67G1ptg5rKLpHxATLk3RXHOrVDTdRiyV/+6QUkQdg==
+"@layer0/next@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@layer0/next/-/next-3.0.2.tgz#dbeae258a19c04845a454715ccb69c87aed440f5"
+  integrity sha512-pTjnUrYgVimIaqbUnYZK8wmAqbh5uYMXTdlVyvlCSYYGwIeBDXep94RZJ5bdN6fp+KjQtyq7j19+WPHkvpE7cw==
   dependencies:
     chalk "^3.0.0"
     cross-spawn "^7.0.3"
@@ -1024,10 +1024,10 @@
     webpack "^4.0.0"
     webpack-sources "^2.2.0"
 
-"@layer0/prefetch@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@layer0/prefetch/-/prefetch-3.0.0.tgz#896238a2e4a8f61c4708c4763bbe8221f732be67"
-  integrity sha512-PmNbUg2WBX5U5AogFnnVQW5m8mEQfbyW4OzvsZRGkvefEgIX/CDNcnwElLNa0LEy80u2dOeHiymoKg+naxSDXA==
+"@layer0/prefetch@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@layer0/prefetch/-/prefetch-3.0.2.tgz#5678aa7275ce1aac67eef1eef1d5d8473e751694"
+  integrity sha512-fYZmejD4uzMvl6N694VgKySdkO6r+4sdAn6ybA+rqzm6gK19+J+9RxtgAFdfJSGTsZ5Kw13fhCJPO0c3o5L4TA==
   dependencies:
     "@types/cheerio" "^0.22.18"
     cheerio "^1.0.0-rc.3"
@@ -1039,10 +1039,10 @@
     workbox-routing "^5.1.2"
     workbox-strategies "^5.1.2"
 
-"@layer0/react@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@layer0/react/-/react-3.0.0.tgz#61542ab1987527c8e2c512cb543dec0ac20f3997"
-  integrity sha512-OBybLCBzQMF2epA1Ua8h0u0lDfd3DaAd18juCfj+K3izhpTowIhzv6M9ary7rcmGpHIXSH0uydA/Yk6tsVv91Q==
+"@layer0/react@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@layer0/react/-/react-3.0.2.tgz#ceb3be65f2a11a7c0210d5807aab182458ff0c5a"
+  integrity sha512-+uQMDVrOMQ4Aq/ZOHS/W5m3bTzV0ntf9G5uUva8lXtMj6j5mqT36/4g3BJj4KdodkiIR+H/tUV0GvRGcI/KFsg==
   dependencies:
     react-merge-refs "^1.1.0"
 

@@ -73,12 +73,12 @@
     "tailwindcss": "^1.9"
   },
   "devDependencies": {
-    "@layer0/cli": "^3.0.0",
-    "@layer0/core": "^3.0.0",
-    "@layer0/devtools": "^3.0.0",
-    "@layer0/next": "^3.0.0",
-    "@layer0/prefetch": "^3.0.0",
-    "@layer0/react": "^3.0.0",
+    "@layer0/cli": "^3.0.2",
+    "@layer0/core": "^3.0.2",
+    "@layer0/devtools": "^3.0.2",
+    "@layer0/next": "^3.0.2",
+    "@layer0/prefetch": "^3.0.2",
+    "@layer0/react": "^3.0.2",
     "@next/bundle-analyzer": "^10.0.1",
     "@types/bunyan": "^1.8.6",
     "@types/bunyan-prettystream": "^0.1.31",
