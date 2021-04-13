@@ -12,7 +12,7 @@ import { B2cStorefrontModule } from '@spartacus/storefront'
     B2cStorefrontModule.withConfig({
       backend: {
         occ: {
-          baseUrl: 'https://moovweb-docs-layer0-spartacus-example-default.moovweb-edge.io',
+          baseUrl: 'https://layer0-docs-layer0-spartacus-example-default.moovweb-edge.io',
         },
       },
       context: {

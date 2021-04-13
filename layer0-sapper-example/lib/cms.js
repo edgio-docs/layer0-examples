@@ -1,7 +1,7 @@
 import fetch from 'axios'
 import BUILD_ID from 'raw-loader!../BUILD_ID'
 
-const origin = 'https://moovweb-docs-layer0-examples-api-default.moovweb-edge.io'
+const origin = 'https://layer0-docs-layer0-examples-api-default.moovweb-edge.io'
 
 function cleanPath(path) {
   return path.replace(/^\//, '')

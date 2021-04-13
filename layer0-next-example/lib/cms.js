@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 
-const origin = 'https://moovweb-docs-layer0-examples-api-default.moovweb-edge.io'
+const origin = 'https://layer0-docs-layer0-examples-api-default.moovweb-edge.io'
 let apiUrl
 
 if (typeof window !== 'undefined') {

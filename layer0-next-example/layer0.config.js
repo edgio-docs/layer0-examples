@@ -10,8 +10,8 @@ module.exports = {
   },
   backends: {
     api: {
-      domainOrIp: 'moovweb-docs-layer0-examples-api-default.moovweb-edge.io',
-      hostHeader: 'moovweb-docs-layer0-examples-api-default.moovweb-edge.io',
+      domainOrIp: 'layer0-docs-layer0-examples-api-default.moovweb-edge.io',
+      hostHeader: 'layer0-docs-layer0-examples-api-default.moovweb-edge.io',
     },
   },
 }
