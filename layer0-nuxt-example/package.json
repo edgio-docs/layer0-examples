@@ -18,12 +18,12 @@
     "@nuxt/core": "^2.14.6"
   },
   "devDependencies": {
-    "@layer0/cli": "^3.0.0",
-    "@layer0/core": "^3.0.0",
-    "@layer0/devtools": "^3.0.0",
-    "@layer0/nuxt": "^3.0.0",
-    "@layer0/prefetch": "^3.0.0",
-    "@layer0/vue": "^3.0.0",
+    "@layer0/cli": "^3.0.2",
+    "@layer0/core": "^3.0.2",
+    "@layer0/devtools": "^3.0.2",
+    "@layer0/nuxt": "^3.0.2",
+    "@layer0/prefetch": "^3.0.2",
+    "@layer0/vue": "^3.0.2",
     "@nuxt/types": "^2.14.6",
     "@nuxt/typescript-build": "^2.0.3",
     "@nuxt/typescript-runtime": "^2.0.0",
