@@ -4,7 +4,7 @@ export default class IndexRoute extends Route {
   model() {
     return {
       message:
-        "This is a simple example of a Ember Fastboot app deployed on the Moovweb XDN.",
+        "This is a simple example of a Ember Fastboot app deployed on Layer0.",
     };
   }
 }

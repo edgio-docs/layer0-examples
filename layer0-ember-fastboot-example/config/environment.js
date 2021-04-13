@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'xdn-ember-fastboot-example',
+    modulePrefix: 'layer0-ember-fastboot-example',
     environment,
     rootURL: '/',
     locationType: 'auto',
