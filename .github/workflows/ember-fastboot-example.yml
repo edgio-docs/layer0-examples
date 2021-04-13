@@ -29,5 +29,5 @@ jobs:
           npm ci
           npm run layer0:deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token ${{env.BRANCH_NAME != 'main' && '--environment=staging' || ''}}
         env:
-          deploy_token: ${{secrets.NEXTJS_COMMERCE_DEPLOY_TOKEN}}
-        working-directory: ./layer0-nextjs-commerce
+          deploy_token: ${{secrets.EMBER_FASTBOOT_DEPLOY_TOKEN}}
+        working-directory: ./layer0-ember-fastboot-example
