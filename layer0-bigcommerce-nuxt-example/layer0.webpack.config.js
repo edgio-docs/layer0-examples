@@ -5,7 +5,7 @@ module.exports = {
   mode: 'production',
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, 'dist', '_xdn'), // should match server.path in xdn.config.js
+    path: path.resolve(__dirname, 'dist', '_layer0'), // should match server.path in layer0.config.js
     libraryTarget: 'umd',
     libraryExport: 'default'
   },

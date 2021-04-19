@@ -140,23 +140,23 @@ If you're new to BigCommerce, that's ok! You can create a free developer sandbox
 
 Divante's awesome open sourced Storefront UI project made it possible to quickly make this look and feel like a real e-comm site using Vue + Nuxt. Check it out here: http://storefrontui.com/
 
-## XDN
+## Layer0
 
 ### Build
 
 ```bash
 npm run build
-npm run xdn:build
+npm run layer0:build
 ```
 
 ### Preview production build
 
 ```bash
-npm run xdn:prod
+npm run layer0:prod
 ```
 
 ### Deploy
 
 ```bash
-npm run xdn:deploy
+npm run layer0:deploy
 ```

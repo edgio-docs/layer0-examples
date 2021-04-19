@@ -1,8 +1,8 @@
-// This file was added by xdn init.
+// This file was added by layer0 init.
 // You should commit this file to source control.
 
-const { Router } = require('@xdn/core/router');
-const { nuxtRoutes } = require('@xdn/nuxt');
+const { Router } = require('@layer0/core/router');
+const { nuxtRoutes } = require('@layer0/nuxt');
 
 const CACHE_TTL_1H = 3600;
 const CACHE_TTL_12H = CACHE_TTL_1H * 12;
@@ -34,7 +34,7 @@ const pageCacheHandler = ({ cache }) => {
 
 const router = new Router();
 
-// xdn service-worker
+// layer0 service-worker
 router.match('/service-worker.js', ({ serviceWorker }) => {
   serviceWorker('.nuxt/dist/client/service-worker.js');
 });
