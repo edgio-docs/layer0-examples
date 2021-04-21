@@ -2,6 +2,9 @@ import fs from 'fs'
 import { join } from 'path'
 
 export default {
+  generate: {
+    fallback: true
+  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'layer0-nuxt-example',
