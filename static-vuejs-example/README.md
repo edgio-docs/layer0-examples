@@ -6,7 +6,7 @@ To get started with this example, run:
 
 ```
 npm i
-npm run layer0:start
+npm run layer0:dev
 ```
 
 and navigate to [http://127.0.0.1:3000](http://127.0.0.1:3000) with your browser to see the result.
