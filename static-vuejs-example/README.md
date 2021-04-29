@@ -6,6 +6,7 @@ To get started with this example, run:
 
 ```
 npm i
+npm run build
 npm run layer0:dev
 ```
 
